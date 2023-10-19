@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Avalonia.Controls.ItemsRepeater" Version="11.0.4" />
+		<PackageReference Include="Avalonia.Desktop" Version="11.0.4" />
+		<PackageReference Include="Avalonia.Themes.Simple" Version="11.0.4" />
+		<PackageReference Include="Avalonia.Diagnostics" Version="11.0.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <AvaloniaResource Include="Assets/**" />
+	</ItemGroup>
+
+</Project>
