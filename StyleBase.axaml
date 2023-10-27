@@ -905,6 +905,7 @@
 		<Setter Property="HorizontalContentAlignment" Value="Stretch" />
 		<Setter Property="VerticalContentAlignment" Value="Center" />
 		<Setter Property="Focusable" Value="True" />
+		<Setter Property="Cursor" Value="Hand"/>
 		<Setter Property="Template">
 			<ControlTemplate>
 				<DataValidationErrors>
